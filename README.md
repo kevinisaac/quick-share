@@ -12,7 +12,7 @@ The URL gets shared right in the browser of the other user.
 
 # Technology used
 1. Language - Python2.7
-2. Framework - [Flask](https://flask.pocoo.org/)
+2. Framework - [Flask](http://flask.pocoo.org/)
 3. Database - MySQL
 4. ORM - [Peewee](https://github.com/coleifer/peewee)
 
