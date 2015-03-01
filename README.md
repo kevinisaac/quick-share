@@ -11,9 +11,10 @@ Every user first creates an account in the website. Then, he can share his usern
 The URL gets shared right in the browser of the other user.
 
 # Technology used
-1. Framework - [Flask](flask.pocoo.org/)
-2. Database - MySQL
-3. ORM - [Peewee](https://github.com/coleifer/peewee)
+1. Language - Python2.7
+2. Framework - [Flask](flask.pocoo.org/)
+3. Database - MySQL
+4. ORM - [Peewee](https://github.com/coleifer/peewee)
 
 # How to contribute?
 Fork the repo --> Make changes <--> Test if working properly --> Commit changes --> Send pull request.
