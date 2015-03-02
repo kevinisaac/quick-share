@@ -1,5 +1,7 @@
 venv
 __pycache__
+
 *bkp
 *~
 *.swp
+*.pyc
