@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h2>Signup for User Account</h2>
+  {% if error %}<p class=error><strong>Notification/Progress State:</strong> {{ error }}{% endif %}
+  <form action="signup_process" method=post>
+    <dl>
+      <dt>Username:
+      <dd><input type=text name=uname>
+      <dt>Password:
+      <dd><input type=password name=passwd>
+      <dd><input type=submit value="Create Account">
+    </dl>
+  </form>
+{% endblock %}

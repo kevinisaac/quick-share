@@ -12,7 +12,7 @@ class MySQLModel(pw.Model):
 
 class User(MySQLModel):
 
-	username = pw.CharField()
+	username = pw.CharField(unique=True)
 	password = pw.CharField()
 
 def create_tables():
