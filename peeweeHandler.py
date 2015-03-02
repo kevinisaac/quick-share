@@ -16,6 +16,5 @@ class User(MySQLModel):
 	password = pw.CharField()
 
 def create_tables():
-    db.connect()
-    db.create_tables([User])
-
+	db.connect()
+	db.create_tables([User])
